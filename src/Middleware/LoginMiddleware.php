@@ -25,7 +25,7 @@ class LoginMiddleware implements MiddlewareInterface
     {
         $this->translator = $translator;
         $this->settings = $settings;
-        $this->errors = $translator->trans("gtdxyz-money-plus.history-auto.forum.system-rewards");
+        $this->errors = '';
     }
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
