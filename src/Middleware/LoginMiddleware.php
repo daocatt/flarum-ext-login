@@ -19,13 +19,11 @@ class LoginMiddleware implements MiddlewareInterface
 {
     private $translator;
     private $settings;
-    private $errors = '';
 
     public function __construct(Translator $translator, SettingsRepositoryInterface $settings)
     {
         $this->translator = $translator;
         $this->settings = $settings;
-        $this->errors = '';
     }
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
