@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@gtdxyz/flarum-ui-dev",
+    "name": "@gtdxyz/flarum-ext-login",
     "dependencies": {
       "flarum-webpack-config": "^1.0.0",
       "webpack": "^4.0.0",
